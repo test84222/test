@@ -1,0 +1,71 @@
+/* Басты стильдер */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Жазу түстерін жақсарту */
+h1, h2, h3 {
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Бөлімдер */
+.instructions {
+    background-color: #e7f7fe;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #c4e6f9;
+    margin-bottom: 20px;
+}
+
+.note {
+    background-color: #fff8e1;
+    padding: 10px;
+    border-left: 5px solid #fbc02d;
+    margin-bottom: 20px;
+}
+
+/* Сұрақтар */
+.question {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Басқа жақсартулар */
+strong {
+    font-weight: bold;
+    color: #333;
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .instructions, .note, .question {
+        padding: 12px;
+        font-size: 13px;
+    }
+
+    .question {
+        margin-bottom: 15px;
+    }
+
+    .note {
+        font-size: 12px;
+    }
+}
